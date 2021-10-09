@@ -1,0 +1,129 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style : none;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+}
+html,
+body {
+    height: 100%;
+}
+html {
+    font-size: 16px;
+}
+body {
+    line-height: 1;
+    font-family: "montserrat";
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+
+.header {
+    color:rgb(92, 76, 107);
+    text-shadow: 1px 1px 3px #000;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px auto 30px auto;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.block {
+  color: white;
+  background-color: rgb(71, 54, 87);
+  width: 200px;
+  height: 200px;
+  margin: 0px 0px 20px 0px;
+  padding: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.text-block p {
+    background-color: rgb(77, 143, 77);
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    opacity: 0.5;
+}
+.inline {
+    background-color: #7a956b;
+    color: white;
+    display: block;
+    margin: auto auto 20px auto;
+    padding: 15px;
+    border: 5px solid #000;
+}
+.main-block {
+    padding: 15px;
+    margin: auto auto 20px auto;
+    border-top: dashed;
+    border-right: solid;
+    border-bottom: dotted;
+    border-left: none;
+    background-color: rgb(151, 127, 173);
+}
+.link {
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 2px 2px 5px #000;
+}
+.block4 {
+    display: inline-block;
+    background-color: rgb(151, 127, 173);
+    max-width: 400px;
+    max-height: 400px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 0px 20px 0px 20px;
+}
+.block5 {
+    display: inline-block;
+    background-color: rgb(151, 127, 173);
+    max-width: 400px;
+    max-height: 400px;
+    margin: 20px;
+    padding: 15px;
+    border-left: 20px solid rgba(255, 255, 255, 0.493);
+    border-right: 20px solid rgba(255, 255, 255, 0.493);
+}
+.block6 {
+    display: inline-block;
+    background-color: rgb(151, 127, 173);
+    max-width: 400px;
+    max-height: 400px;
+    margin: 20px;
+    padding: 15px;
+    outline: 4px dashed #000;
+}
